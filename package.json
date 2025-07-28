@@ -1,0 +1,30 @@
+{
+  "name": "pdf-splitter",
+  "version": "1.0.0",
+  "description": "Um site web de código aberto para fragmentação de PDFs no navegador",
+  "main": "index.html",
+  "scripts": {
+    "dev": "http-server -p 3000",
+    "build": "echo 'Build completed'",
+    "start": "http-server -p 3000"
+  },
+  "keywords": [
+    "pdf",
+    "split",
+    "fragment",
+    "javascript",
+    "browser",
+    "privacy"
+  ],
+  "author": "Open Source",
+  "license": "MIT",
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^3.11.174",
+    "jszip": "^3.10.1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
+
